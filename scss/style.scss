@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.26);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+    background-color: rgb(6, 89, 145);
+}
+header h4{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+header button{
+    padding: 5px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+header button:focus{
+    outline: none;
+}
+.container{
+    padding: 20px;
+    height: auto;
+}
+.notes-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    width: 350px;
+    border: 0px solid rgba(0, 0, 0, 0.342);
+    height: 350px;
+    // max-width: 100%;
+    // max-height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+.tools{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(6, 89, 145);
+    padding: 3px 8px;
+    width: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tools button{
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.note textarea{
+    outline: none;
+    width: 300px;
+    border: none;
+    height: 250px;
+    padding: 20px;
+}
+.note .hidden{
+    display: none;
+    padding: 20px;
+}
+.note .main{
+    padding: 20px;
+}
