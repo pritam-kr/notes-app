@@ -37,6 +37,7 @@ header button:focus{
 .notes-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .note{
     width: 350px;
